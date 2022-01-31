@@ -9,7 +9,7 @@ csrf = CSRFProtect(app)
 def pagina_inicial():
     return "Laboratório Pipeline DevOps - Alexandre Arruda"
 
-    @app.route('/bug')                                                                                                                                
+@app.route('/bug')                                                                                                                                
 def bad():                                                                                                                                        
     try:                                                                                                                                          
         raise TypeError()                                                                                                                         
